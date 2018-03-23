@@ -11,5 +11,7 @@ echo "# Added by login-notify install script (https://github.com/nicolaschan/log
 echo "session optional pam_exec.so seteuid $INSTALL_PREFIX/login-notify.sh" >> /etc/pam.d/sshd
 nano "$INSTALL_PREFIX/config.sh"
 
+echo
+echo "****************************************************************************"
 echo "Make sure you have set your configuration in $INSTALL_PREFIX/config.sh"
 echo "More info: https://github.com/nicolaschan/login-notify/blob/master/README.md"

@@ -39,7 +39,7 @@ chmod +x install.sh
 sudo ./install.sh 
 ```
 
-## Operating System
+## Supported Platforms
 This program has been tested on the following platforms:
 - Linux Mint 18.3 Sylvia
 

@@ -71,7 +71,7 @@ validate-ip () {
 }
 
 # Whitelisted IPs
-WHITELIST="$SCRIPT_DIR/ip-whitelist.txt"
+WHITELIST="$(< $SCRIPT_DIR/ip-whitelist.txt)"
 for WHITELISTED_IP in $WHITELIST; do
     if validate-ip $PAM_RHOST $WHITELISTED_IP; then
         exit 0

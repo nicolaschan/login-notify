@@ -10,6 +10,7 @@ echo >> /etc/pam.d/sshd
 echo "# Added by login-notify install script (https://github.com/nicolaschan/login-notify)" >> /etc/pam.d/sshd
 echo "session optional pam_exec.so seteuid $INSTALL_PREFIX/login-notify.sh" >> /etc/pam.d/sshd
 nano "$INSTALL_PREFIX/config.sh"
+chmod 700 "$INSTALL_PREFIX/config.sh"
 
 echo
 echo "****************************************************************************"

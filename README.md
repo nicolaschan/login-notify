@@ -42,6 +42,7 @@ sudo ./install.sh
 ## Supported Platforms
 This program has been tested on the following platforms:
 - Linux Mint 18.3 Sylvia
+- Ubuntu 17.10
 
 ## Reference
 1. [https://askubuntu.com/a/448602](https://askubuntu.com/a/448602)

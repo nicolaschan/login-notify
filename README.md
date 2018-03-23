@@ -39,5 +39,9 @@ chmod +x install.sh
 sudo ./install.sh 
 ```
 
+## Operating System
+This program has been tested on the following platforms:
+- Linux Mint 18.3 Sylvia
+
 ## Reference
 1. [https://askubuntu.com/a/448602](https://askubuntu.com/a/448602)

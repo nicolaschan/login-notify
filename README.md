@@ -6,7 +6,7 @@ Get notified of SSH logins
 - IP range whitelisting
 
 ## Usage
-Set the following configuration variables at the top of the script:
+Set the following configuration variables in `config.sh`, which should be in the same directory as `login-notify.sh`:
 
 ```bash
 API_KEY="<Mailgun API Key>"

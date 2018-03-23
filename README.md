@@ -33,7 +33,9 @@ For convenience, an installation script is provided. It is recommended to instal
 For security, always inspect foreign scripts before running them on your computer (especially with sudo access).
 
 ```
-sudo curl https://raw.githubusercontent.com/nicolaschan/login-notify/master/install.sh | bash
+curl https://raw.githubusercontent.com/nicolaschan/login-notify/master/install.sh -o install.sh && chmod +x install.sh
+# Inspect the script for security
+sudo ./install.sh 
 ```
 
 ## Reference

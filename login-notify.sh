@@ -98,6 +98,5 @@ if [[ $PAM_TYPE != "close_session" ]]; then
         REMOTE_HOSTNAME=$PAM_RHOST
     fi
 
-    env > /etc/ssh/cool-log.txt
     email "$PAM_USER from $REMOTE_HOSTNAME" "Successful login to `hostname` as user $PAM_USER at $(date) from $REMOTE_HOSTNAME ($PAM_RHOST)" 
 fi

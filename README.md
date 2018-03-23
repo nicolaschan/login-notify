@@ -27,5 +27,14 @@ As per [(1)](https://askubuntu.com/a/448602), have the script run when an SSH lo
 session optional pam_exec.so seteuid /path/to/login-notify.sh
 ```
 
+## Installation Script
+For convenience, an installation script is provided. It is recommended to install manually because the installation script might not work on all computers/operating systems. The installation script will install the repository in `/etc/ssh/login-notify` and will add the required line to `/etc/pam.d/sshd`.
+
+For security, always inspect foreign scripts before running them on your computer (especially with sudo access).
+
+```
+sudo curl https://raw.githubusercontent.com/nicolaschan/login-notify/master/install.sh | bash
+```
+
 ## Reference
 1. [https://askubuntu.com/a/448602](https://askubuntu.com/a/448602)

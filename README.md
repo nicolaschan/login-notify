@@ -15,7 +15,7 @@ RECIPIENTS="Foo Bar <foo@example.com>, Baz Bar <baz@example.com>" # For multiple
 FROM="SSH Alert <sshd@mycomputer.example.com>"
 ```
 
-You can whitelist certain IP addresses if you are not concerned about logins from those IPs. Currently, only IPv4 is supported. Add each IP address on each line of `ip-whitelist.txt`, which should be in the same directory as `login-notify.sh`. You can also specify IP ranges using [CIDR notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation), such as `192.168.0.0/24`.
+You can whitelist certain IP addresses if you are not concerned about logins from those IPs. Add each IP address on each line of `ip-whitelist.txt`, which should be in the same directory as `login-notify.sh`. You can also specify IP ranges using [CIDR notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation), such as `192.168.0.0/24`.
 
 ```txt
 127.0.0.1

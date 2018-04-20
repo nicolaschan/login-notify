@@ -40,6 +40,9 @@ chmod +x install.sh
 sudo ./install.sh 
 ```
 
+## Uninstall
+To disable, remove the added line from `/etc/pam.d/sshd`. You may also remove everything else by deleting the repository (default location is `/etc/ssh/login-notify`).
+
 ## Supported Platforms
 This program has been tested on the following platforms:
 - Linux Mint 18.3 Sylvia

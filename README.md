@@ -1,9 +1,10 @@
 # SSH Login Notify
-Get notified of SSH logins
+Get notified of SSH logins by email
 
 ## Features
 - Send emails with the [Mailgun API](https://documentation.mailgun.com/en/latest/quickstart-sending.html#send-with-smtp-or-api)
 - IP range whitelisting
+- Easy installation (pure bash)
 
 ## Usage
 Set the following configuration variables in `config.sh`, which should be in the same directory as `login-notify.sh`:
